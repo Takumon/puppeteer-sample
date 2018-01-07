@@ -1,5 +1,11 @@
 const puppeteer = require('puppeteer');
 
+/**
+ * 指定したURlのページのタイトルを取得する.
+ *
+ * @param {String} url
+ * @return 指定したページのタイトル
+ */
 const getTitle = async url => {
   const browser = await puppeteer.launch();
   const pages = await browser.pages();
