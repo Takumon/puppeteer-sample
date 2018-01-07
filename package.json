@@ -1,0 +1,26 @@
+{
+  "name": "puppeteer-sample",
+  "version": "0.0.1",
+  "description": "puppeteer sample",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Takumon/puppeteer-sample.git"
+  },
+  "keywords": [
+    "puppeteer"
+  ],
+  "author": "Takumon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Takumon/puppeteer-sample/issues"
+  },
+  "homepage": "https://github.com/Takumon/puppeteer-sample#readme",
+  "dependencies": {
+    "puppeteer": "^0.13.0"
+  }
+}
